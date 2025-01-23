@@ -15,7 +15,7 @@ const ProfileDetails = () => {
         <div className="mt-2 font-montserrat font-bold text-xl">Daniel</div>
  
       <div className="flex items-center h-[60vh] animate-slowfade w-72 my-10">
-        <img src={icon} className="ml-5 rounded-full"/>
+        <img src={icon} className="rounded-full"/>
       </div>
 
       <div className="text-sm font-roboto font-bold text-ash ml-6 mt-2">© {date} Daniel. All Rights Reserved</div>
@@ -27,7 +27,7 @@ const ProfileDetails = () => {
         <img src={x}  className="rounded-full hover:border-green-900 border-2 cursor-pointer"/> 
       </div>
 
-      <div className="text-xl font-Tangerine italic ml-5 mt-3 text-purple-800">With my sleek design and intuitive features, I embody the essence of modern sophisatication</div>
+      <div className="text-xl font-Tangerine italic ml-5 mt-5 text-purple-600">With my sleek design and intuitive features, I embody the essence of modern sophisatication</div>
     </div>
   )
 }
