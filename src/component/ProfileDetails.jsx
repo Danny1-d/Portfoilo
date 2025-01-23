@@ -3,7 +3,7 @@ import icon from "../assets/images/nft-characters.jpg"
 import facebook from "../assets/images/facebook-icon.png"
 import github from "../assets/images/github.webp"
 import linkedIn from "../assets/images/linkedIn-icon.png"
-import x from "../assets/images/x-icon.svg"
+import x from "../assets/images/x.svg"
 import dayjs from "dayjs";
 
 const ProfileDetails = () => {
