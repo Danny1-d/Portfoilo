@@ -8,13 +8,13 @@ const Details = () => {
 
   return (
     <div className='mt-36 flex flex-col justify-center items-center '>
-      <div className='text-6xl font-roboto text-light mx-10 md:mx-0'>
+      <div className='text-6xl font-roboto text-light mx-2 md:mx-0'>
         <div>Hello, Connect With <span className='text-green-700'>Daniel</span>,</div>
         <div className='text-2xl mt-2'>A Frontend Developer and A Web3 Developer (Motoko, ICP Blockchain).</div>
       </div>
 
       
-      <div className='text-sm mt-16 font-montserrat italic'>I'm your ultimate companion to make a lasting impression in the digital realm.</div>
+      <div className='text-sm mt-16 font-montserrat italic mx-2'>I'm your ultimate companion to make a lasting impression in the digital realm.</div>
 
       <div className='flex gap-7 mt-32 text-sm font-playFair text-ash animate-slideright'>
         <div>

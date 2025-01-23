@@ -26,7 +26,7 @@ const ProfileDetails = () => {
         <img src={x}  className="rounded-full hover:border-green-900 border-2 cursor-pointer"/> 
       </div>
 
-      <div className="text-sm font-montserrat italic ml-5 mt-3 text-purple-800">With my sleek design and intuitive features, I embody the essence of modern sophisatication</div>
+      <div className="text-sm font-Tangerine italic ml-5 mt-3 text-purple-800">With my sleek design and intuitive features, I embody the essence of modern sophisatication</div>
     </div>
   )
 }

@@ -8,8 +8,8 @@ const Advantage = () => {
     <div className='mt-20'>
       <div className='ml-10 text-3xl font-bold font-Tangerine'>MY <span className='text-green-600'>Advantage</span></div>
 
-      <div className='grid-cols-3 grid mt-24'>
-        <div className='flex items-center gap-10'>
+      <div className='grid grid-cols-2 md:grid-cols-3 mt-24'>
+        <div className='flex items-center gap-4'>
 
         <div className='flex flex-col items-center'> 
           <div className='border p-16 rounded-full flex flex-col items-center hover:border-green-500'>
