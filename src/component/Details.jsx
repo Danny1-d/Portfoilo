@@ -8,7 +8,7 @@ const Details = () => {
 
   return (
     <div className='mt-36 flex flex-col justify-center items-center '>
-      <div className='text-6xl font-roboto text-light'>
+      <div className='text-6xl font-roboto text-light mx-10 md:mx-0'>
         <div>Hello, Connect With <span className='text-green-700'>Daniel</span>,</div>
         <div className='text-2xl mt-2'>A Frontend Developer and A Web3 Developer (Motoko, ICP Blockchain).</div>
       </div>

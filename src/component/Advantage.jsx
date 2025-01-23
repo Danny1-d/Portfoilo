@@ -1,15 +1,15 @@
 import React from 'react'
-import motoko from "../assets/motoko-icon.jpeg"
-import js from "../assets/js-icon.png"
-import react from "../assets/react-icon.webp"
+import motoko from "../assets/images/motoko-icon.jpeg"
+import js from "../assets/images/js-icon.png"
+import react from "../assets/images/react-icon.webp"
 
 const Advantage = () => {
   return (
     <div className='mt-20'>
       <div className='ml-10 text-3xl font-bold font-Tangerine'>MY <span className='text-green-600'>Advantage</span></div>
 
-      <div className='grid-cols-3 grid  mt-24'>
-        <div className='flex items-center gap-16'>
+      <div className='grid-cols-3 grid mt-24'>
+        <div className='flex items-center gap-10'>
 
         <div className='flex flex-col items-center'> 
           <div className='border p-16 rounded-full flex flex-col items-center hover:border-green-500'>

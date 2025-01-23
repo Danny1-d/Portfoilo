@@ -1,9 +1,9 @@
 import React from "react";
-import icon from "../assets/nft-characters.jpg"
-import facebook from "../assets/facebook-icon.png"
-import github from "../assets/Github-icon.webp"
-import linkedIn from "../assets/linkedIn-icon.png"
-import x from "../assets/X-icon.svg"
+import icon from "../assets/images/nft-characters.jpg"
+import facebook from "../assets/images/facebook-icon.png"
+import github from "../assets/images/Github-icon.webp"
+import linkedIn from "../assets/images/linkedIn-icon.png"
+import x from "../assets/images/X-icon.svg"
 import dayjs from "dayjs";
 
 const ProfileDetails = () => {
