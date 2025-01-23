@@ -7,7 +7,11 @@ export default {
   theme: {
     extend: {
       screen: {
-        vh: '70vh',
+        'sm': '300px',
+        'md': '600px',
+        'lg' : '900px',
+        'xl' : '1200px',
+        '2xl' : '1500px'
       },
       fontFamily: {
         playFair: ["Playfair Display", 'serif'],
