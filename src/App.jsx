@@ -6,7 +6,7 @@ import Navbar from "./component/Navbar"
 const App = () => {
 
   return (
-    <div className="grid grid-rows-1 md:grid-cols-[1fr_2fr_0.2fr] gap-10 mb-24">
+    <div className="flex flex-col  md:flex-row gap-20 mb-24">
       <ProfileDetails />
       <Details />
       <Navbar />
