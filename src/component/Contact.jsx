@@ -26,9 +26,7 @@ const Contact = () => {
         <input type='text' placeholder='Message' className='bg-transparent outline-none'/>
         </div>
 
-        <div className='mx-44'>
         <button className='bg-green-800 px-3 py-3 w-36 rounded-full'>Connect</button>
-        </div>
 
       </form>
     </div>

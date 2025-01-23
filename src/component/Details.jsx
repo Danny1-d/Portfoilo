@@ -16,7 +16,7 @@ const Details = () => {
       
       <div className='text-sm mt-16 font-montserrat italic mx-2 flex justify-center'>I'm your ultimate companion to make a lasting impression in the digital realm.</div>
 
-      <div className='flex justify-center gap-7 mt-32 text-sm font-playFair text-ash animate-slideright mx-8'>
+      <div className='flex justify-center gap-5 mt-28 text-sm font-playFair text-ash animate-slideright'>
         <div>
           <div className='mb-3'>EMAIL</div>
           <div> danielobijuru01@gmail.com </div>
