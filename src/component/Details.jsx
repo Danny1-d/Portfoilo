@@ -8,7 +8,7 @@ const Details = () => {
 
   return (
     <div className='mt-24'>
-      <div className='text-6xl font-roboto text-light flex flex-col items-center'>
+      <div className='text-5xl font-roboto text-light flex flex-col items-center mx-3'>
         <div>Hello, Connect With <span className='text-green-700'>Daniel</span>,</div>
         <div className='text-2xl mt-2'>A Frontend Developer and A Web3 Developer (Motoko, ICP Blockchain).</div>
       </div>
@@ -16,7 +16,7 @@ const Details = () => {
       
       <div className='text-sm mt-16 font-montserrat italic mx-2 flex justify-center'>I'm your ultimate companion to make a lasting impression in the digital realm.</div>
 
-      <div className='flex justify-center gap-2 mt-28 text-sm font-playFair text-ash animate-slideright'>
+      <div className='flex justify-center gap-2 sm:gap-5 mt-28 text-sm font-playFair text-ash animate-slideright'>
         <div>
           <div className='mb-3'>EMAIL</div>
           <div> danielobijuru01@gmail.com </div>
