@@ -7,31 +7,13 @@ import Contact from './Contact'
 const Details = () => {
 
   return (
-    <div className='mt-24'>
-      <div className='text-5xl font-roboto text-light flex flex-col items-center mx-3'>
-        <div>Hello, Connect With <span className='text-green-700'>Daniel</span>,</div>
-        <div className='text-2xl mt-2'>A Frontend Developer and A Web3 Developer (Motoko, ICP Blockchain).</div>
+    <div id='/' className='mt-44 flex flex-col items-center '>
+      <div className='text-6xl font-montserrat text-light h-[50vh] mx-3'>
+        <div>Hello, Connect With <span className='text-green-700 font-Quicksand'>Daniel</span>,</div>
+        <div className='text-2xl mt-3'>A Frontend Developer and A Web3 Developer (Motoko, ICP Blockchain).</div>
       </div>
 
-      
-      <div className='text-sm mt-16 font-montserrat italic mx-2 flex justify-center'>I'm your ultimate companion to make a lasting impression in the digital realm.</div>
-
-      <div className='flex justify-center gap-2 sm:gap-5 mt-28 text-sm font-playFair text-ash animate-slideright'>
-        <div>
-          <div className='mb-3'>EMAIL</div>
-          <div> danielobijuru01@gmail.com </div>
-        </div>
-
-        <div>
-          <div className='mb-3'>PHONE</div>
-          <div> +2349156761196 </div>
-        </div>
-
-        <div>
-          <div className='mb-3'>Location</div>
-          <div> Anambra, Nigeria </div>
-        </div>
-      </div>
+      <div className='font-Imperial text-xl'>I'm your ultimate companion to make a lasting impression in digital realm.</div>
 
       <About />
       <Experience />

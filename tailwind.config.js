@@ -28,6 +28,7 @@ export default {
         light: '#dcdcdb',
         darkgreen: '#023020',
         blue: '#023',
+        metal: '#040406',
         bgColor: 'var(--bg-color)'
       },
       animation: {

@@ -22,7 +22,7 @@ const Contact = () => {
         </div>
 
         <div className='flex flex-col'>
-        <label className="mb-5 text-lg font-Imperial">Desired Outlook</label>
+        <label className="mb-5 text-lg font-Imperial">Outlook</label>
         <input type='text' placeholder='Message' className='bg-transparent outline-none'/>
         </div>
 

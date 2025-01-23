@@ -6,10 +6,10 @@ import Navbar from "./component/Navbar"
 const App = () => {
 
   return (
-    <section className="flex flex-col xl:flex-row flex-1 gap-16 mb-24">
+    <section className="grid grid-cols-1 xl:grid-cols-[1fr_2fr_0.2fr] gap-16 mb-24">
       <ProfileDetails />
       <Details />
-      {/* <Navbar /> */}
+      <Navbar />
     </section>
   )
 }

@@ -5,10 +5,10 @@ import react from "../assets/images/react-icon.webp"
 
 const Advantage = () => {
   return (
-    <div className='mt-28'>
+    <div id='/advantage' className='mt-28'>
       <div className='ml-10 text-3xl font-bold font-Tangerine'>MY <span className='text-green-600'>Advantage</span></div>
 
-      <div className='grid grid-cols-2 md:grid-cols-3 mt-20 '>
+      <div className='grid grid-cols-2 md:grid-cols-3 mt-20 gap-5'>
 
         <div className='flex flex-col items-center'> 
           <div className='border p-16 rounded-full flex flex-col items-center hover:border-green-500 w-44'>

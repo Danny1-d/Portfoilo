@@ -12,6 +12,9 @@ const ProfileDetails = () => {
 
   return ( 
     <div className="flex flex-col justify-center items-center border pb-5 h-[700px] xl:px-10 mx-5 rounded-2xl mt-5">
+
+        <div className="scroll fixed bg-green-600 h-1 top-0 left-0 right-0"></div>
+
         <div className="mt-2 font-montserrat font-bold text-xl">Daniel</div>
  
       <div className="flex items-center h-[60vh] animate-slowfade w-72 my-10">
@@ -27,7 +30,7 @@ const ProfileDetails = () => {
         <img src={x}  className="rounded-full hover:border-green-900 border-2 cursor-pointer"/> 
       </div>
 
-      <div className="text-xl font-Tangerine italic ml-5 mt-5 text-purple-600">With my sleek design and intuitive features, I embody the essence of modern sophisatication</div>
+      <div className="text-xl font-Tangerine italic mx-5 mt-5 text-purple-600">With my sleek design and intuitive features, I embody the essence of modern sophisatication</div>
     </div>
   )
 }
