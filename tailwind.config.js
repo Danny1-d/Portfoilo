@@ -33,7 +33,7 @@ export default {
       },
       animation: {
         slideup: 'slideup 2s ease-in-out',
-        slidedown: 'slidedown 1s ease-in-out',
+        slidedown: 'slidedown 3s ease-in-out',
         slideleft: 'slideleft 3s ease-in-out',
         slideright: 'slideright 3s ease-in-out',
         sliderightto: 'slideright 0.5s',
