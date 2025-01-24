@@ -1,9 +1,10 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import icon from "../assets/images/nft-characters.jpg"
-import facebook from "../assets/images/facebook-icon.png"
-import github from "../assets/images/github.webp"
-import linkedIn from "../assets/images/linkedIn-icon.png"
-import x from "../assets/images/x.svg"
+import facebook from "../assets/images/facebook.png"
+import github from "../assets/images/github.png"
+import linkedIn from "../assets/images/linkedIn.png"
+import x from "../assets/images/x.png"
 import dayjs from "dayjs";
 
 const ProfileDetails = () => {
@@ -23,11 +24,19 @@ const ProfileDetails = () => {
 
       <div className="text-sm font-roboto font-bold text-ash ml-6 mt-2">© {date} Daniel. All Rights Reserved</div>
 
-      <div className="w-10 flex justify-center gap-4 mt-8 rounded-full">
-        <img src={linkedIn} className="rounded-full hover:border-green-900 border-2 cursor-pointer bg-darkgreen"/>
-        <img src={facebook} className="rounded-full hover:border-green-900 border-2 cursor-pointer"/> 
-        <img src={github}  className="rounded-full hover:border-green-900 border-2 cursor-pointer"/>
-        <img src={x}  className="rounded-full hover:border-green-900 border-2 cursor-pointer"/> 
+      <div className="w-44 flex justify-center gap-4 mt-8 rounded-full">
+        <a href="https://www.linkedin.com/in/daniel-obijuru-aa05062b1/">
+          <img src={linkedIn} className="rounded-full hover:border-green-500 border-2 cursor-pointer"/>
+        </a>
+        <a href='https://github.com/Daniel-agozie'>
+          <img src={github} className="rounded-full hover:border-green-500 border-2 cursor-pointer"/>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=61550331388285">
+          <img src={facebook} className="rounded-full hover:border-green-500 border-2 cursor-pointer"/>
+        </a>
+        <a href='https://x.com/DannyKfty?t=87KlVhxXtLT6A01xazamrQ&s=09'>
+          <img src={x}  className="rounded-full hover:border-green-500 border-2 cursor-pointer"/>
+        </a> 
       </div>
 
       <div className="text-xl font-Tangerine italic mx-5 mt-5 text-purple-600">With my sleek design and intuitive features, I embody the essence of modern sophisatication</div>
