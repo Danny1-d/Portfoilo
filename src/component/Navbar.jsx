@@ -18,13 +18,6 @@ const Navbar = () => {
     setOpen(false)
   }
 
-  useEffect(() => {
-    document.addEventListener("click", Nav);
-
-    return () => {
-      document.removeEventListener("click", Nav)
-    }
-  }, [])
 
   return (
     <div className='flex mt-20 fixed right-0 mr-5'>
