@@ -19,7 +19,8 @@ export default {
         montserrat: ["Montserrat", 'serif'],
         Quicksand: ["Quicksand", "serif"],
         Tangerine: [ "Tangerine", "serif"],
-        Imperial: ["Imperial Script", "serif"]
+        Imperial: ["Imperial Script", "serif"],
+        Chewy: ["Chewy", "serif"]
       },
       colors: {
         hunter: '#40B5AD',

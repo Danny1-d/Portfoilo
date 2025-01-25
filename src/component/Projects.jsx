@@ -18,7 +18,7 @@ const Projects = () => {
                 <div className='bg-light px-4 py-1 rounded-full text-purple-700 font-Tangerine whitespace-nowrap'>Tailwind CSS</div>
               </div>
             </div>
-          <div className='text-light mt-5 flex justify-center font-Imperial'>Token Built on the ICP Blockchain</div>
+          <div className='text-light mt-5 flex justify-center font-Chewy'>Token Built on the ICP Blockchain</div>
         </div>
 
         <div>
@@ -29,7 +29,7 @@ const Projects = () => {
               <div className='bg-light px-4 py-1 rounded-full text-purple-700 font-Tangerine'>Tailwind CSS</div>
             </div>
           </div>
-          <div className='text-light mt-5 flex justify-center font-Imperial'>Fully Functional E-commerce Website</div>
+          <div className='text-light mt-5 flex justify-center font-Chewy'>Fully Functional E-commerce Website</div>
         </div>
 
         <div>
@@ -40,7 +40,7 @@ const Projects = () => {
               <div className='bg-light px-4 py-1 rounded-full text-purple-700 font-Tangerine'>Tailwind CSS</div>
             </div>
           </div>
-          <div className='text-light mt-5 flex justify-center font-Imperial'>Note to Take Record</div>
+          <div className='text-light mt-5 flex justify-center font-Chewy'>Note to Take Record</div>
         </div>
       </div>
 
