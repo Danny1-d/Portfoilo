@@ -11,10 +11,10 @@ const Projects = () => {
       <div className='mt-28 opacity-80 flex flex-col gap-16 mx-10'>
           <div className='relative'>
           <img src={Token} />
-          <div className='absolute inset-0 flex flex-wrap gap-5 items-end left-6 bottom-3'>
+          <div className='absolute inset-0 flex gap-5 items-end left-6 bottom-3'>
             <div className='bg-light px-4 py-1 rounded-full text-purple-700 font-Tangerine'>React</div>
             <div className='bg-light px-4 py-1 rounded-full text-purple-700 font-Tangerine'>Motoko</div>
-            <div className='bg-light px-4 py-1 rounded-full text-purple-700 font-Tangerine'>Tailwind CSS</div>
+            <div className='bg-light px-4 py-1 rounded-full text-purple-700 font-Tangerine whitespace-nowrap'>Tailwind CSS</div>
           </div>
         </div>
 
