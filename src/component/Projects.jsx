@@ -5,7 +5,7 @@ import Token from "../assets/images/token.png"
 
 const Projects = () => {
   return (
-    <div className='mt-28'>
+    <div id='/projects' className='mt-28'>
       <div className='font-Tangerine ml-10 text-3xl font-bold'>My <span className='text-green-600'>Projects</span></div>
 
       <div className='mt-28 opacity-80 flex flex-col gap-16 mx-10'>

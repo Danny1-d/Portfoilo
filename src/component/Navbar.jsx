@@ -62,8 +62,8 @@ const Navbar = () => {
               <button>Advantage</button>
             </Link>
 
-            <Link to="/contact" spy={true} smooth={true} offset={-100} duration={1500} onClick={closeMenu} >
-              <button>Contact</button>
+            <Link to="/projects" spy={true} smooth={true} offset={-100} duration={1500} onClick={closeMenu} >
+              <button>Projects</button>
             </Link>
             </div>
           </div>
