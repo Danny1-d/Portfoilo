@@ -20,7 +20,7 @@ const Details = () => {
       <About />
       <Experience />
       <Advantage />
-      <Contact />
+      {/* <Contact /> */}
     </div>
   )
 }

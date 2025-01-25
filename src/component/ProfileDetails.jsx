@@ -5,6 +5,7 @@ import facebook from "../assets/images/facebook.png"
 import github from "../assets/images/github.png"
 import linkedIn from "../assets/images/linkedIn.png"
 import x from "../assets/images/x.png"
+import whatapp from "../assets/images/whatapp.jpeg"
 import dayjs from "dayjs";
 
 const ProfileDetails = () => {
@@ -37,6 +38,10 @@ const ProfileDetails = () => {
         <a href='https://x.com/DannyKfty?t=87KlVhxXtLT6A01xazamrQ&s=09'>
           <img src={x}  className="rounded-full hover:border-green-500 border-2 cursor-pointer"/>
         </a> 
+
+        <a href="https://wa.me/+23409158761196">
+          <img src={whatapp} className="rounded-full hover:border-green-500 border-2 cursor-pointer"/>
+        </a>
       </div>
 
       <div className="text-xl font-Tangerine italic mx-5 mt-5 text-purple-600">With my sleek design and intuitive features, I embody the essence of modern sophisatication</div>
