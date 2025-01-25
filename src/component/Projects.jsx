@@ -40,7 +40,7 @@ const Projects = () => {
               <div className='bg-light px-4 py-1 rounded-full text-purple-700 font-Tangerine'>Tailwind CSS</div>
             </div>
           </div>
-          <div className='text-light mt-5 flex justify-center font-Chewy'>Note to Take Record</div>
+          <div className='text-light mt-5 flex justify-center font-Chewy'>Note to Keep Record</div>
         </div>
       </div>
 
