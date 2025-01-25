@@ -43,7 +43,7 @@ const Navbar = () => {
         <img src={menu} className={`w-10 border rounded-full cursor-pointer ${isOpen && 'hidden'}`} onClick={Nav}/>
 
         {isOpen && (
-          <div className={`bg-metal w-[350px] sm:w-[500px] h-screen top-0 fixed right-0 opacity-95 font-Chewy text-ash`}>
+          <div className={`bg-metal w-[350px] sm:w-[500px] h-screen top-0 fixed right-0 opacity-95 font-Chewy text-ash animate-slideright`}>
             <div className='mt-24 flex justify-center text-xl'>Menu</div>
             <div className='flex flex-col items-center mt-20 gap-16 text-sm'>
             <Link to="/" spy={true} smooth={true} offset={-100} duration={1500} onClick={closeMenu} >
