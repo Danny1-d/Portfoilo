@@ -3,11 +3,12 @@ import About from './About'
 import Experience from './Specializations'
 import Advantage from "./Advantage"
 import Contact from './Contact'
+import Projects from './Projects'
 
 const Details = () => {
 
   return (
-    <div id='/' className='mt-44 flex flex-col items-center '>
+    <div id='/' className='mt-44 flex flex-col'>
       <div className='xl:animate-slideright animate-slideup'>
       <div className='text-6xl font-playFair text-light h-[50vh] mx-3'>
         <div>Hello, Connect With <span className='text-green-700 font-Quicksand'>Daniel</span>,</div>
@@ -20,6 +21,7 @@ const Details = () => {
       <About />
       <Experience />
       <Advantage />
+      <Projects />
       {/* <Contact /> */}
     </div>
   )
