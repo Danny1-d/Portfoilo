@@ -46,7 +46,7 @@ const ProfileDetails = () => {
         </a>
       </div>
 
-      <div className="text-xl font-Tangerine italic mx-5 mt-5 text-purple-600">With my sleek design and intuitive features, I embody the essence of modern sophisatication</div>
+      <div className="text-xl font-Tangerine italic mx-5 mt-5 text-purple-600 font-bold">With my sleek design and intuitive features, I embody the essence of modern sophisatication</div>
     </div>
   )
 }
