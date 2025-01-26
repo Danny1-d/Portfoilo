@@ -25,7 +25,7 @@ const ProfileDetails = () => {
 
       <div className="text-sm font-roboto font-bold text-ash ml-6 mt-2">© {date} Daniel. All Rights Reserved</div>
 
-      <div className="mt-5 font-bold font-Tangerine text-purple-600">Contact Me </div>
+      <div className="mt-5 font-bold font-Tangerine text-purple-400">Contact Me </div>
 
       <div className="w-56 flex justify-center gap-4 mt-3 rounded-full">
         <a href="https://www.linkedin.com/in/daniel-obijuru-aa05062b1/">
