@@ -27,7 +27,7 @@ const ProfileDetails = () => {
 
       <div className="mt-5 font-bold font-Tangerine text-purple-600">Contact Me </div>
 
-      <div className="w-56 flex justify-center gap-4 mt-8 rounded-full">
+      <div className="w-56 flex justify-center gap-4 mt-3 rounded-full">
         <a href="https://www.linkedin.com/in/daniel-obijuru-aa05062b1/">
           <img src={linkedIn} className="rounded-full hover:border-green-500 border-2 cursor-pointer"/>
         </a>
