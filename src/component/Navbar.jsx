@@ -2,9 +2,11 @@ import React,{useState, useEffect} from 'react'
 import Home from "../assets/images/home.png"
 import About from "../assets/images/about.png"
 import Message from "../assets/images/message.jpeg"
-import Projects from "../assets/images/projects.png"
+import Tools from "../assets/images/projects.png"
 import menu from "../assets/images/menu.png"
 import { Link } from "react-scroll"
+import Project from "../assets/images/project.png"
+import Cancel from "../assets/images/cancel.png"
 
 const Navbar = () => {
 
@@ -34,7 +36,10 @@ const Navbar = () => {
           <img src={Message} className='w-8 rounded-full'/>
           </Link>
           <Link to="/advantage" spy={true} smooth={true} offset={-100} duration={1500}>
-          <img src={Projects} className='w-8 rounded-full'/>
+          <img src={Tools} className='w-8 rounded-full'/>
+          </Link>
+          <Link to="/projects" spy={true} smooth={true} offset={-100} duration={1500}>
+          <img src={Project} className='w-8 rounded-full'/>
           </Link>
         </div>
       </div>
@@ -44,7 +49,10 @@ const Navbar = () => {
 
         {isOpen && (
           <div className={`bg-metal w-[350px] sm:w-[500px] h-screen top-0 fixed right-0 opacity-95 font-Chewy text-ash animate-slideright`}>
-            <div className='mt-24 flex justify-center text-xl'>Menu</div>
+            <div className='flex justify-end mt-10 mr-5 cursor-pointer' onClick={closeMenu}>
+              <img src={Cancel} className='w-7' />
+            </div>
+            <div className='mt-20 flex justify-center text-xl'>Menu</div>
             <div className='flex flex-col items-center mt-20 gap-16 text-sm'>
             <Link to="/" spy={true} smooth={true} offset={-100} duration={1500} onClick={closeMenu} >
               <button>Home</button>

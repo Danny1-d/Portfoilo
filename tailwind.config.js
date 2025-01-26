@@ -36,7 +36,7 @@ export default {
         slideup: 'slideup 2s ease-in-out',
         slidedown: 'slidedown 3s ease-in-out',
         slideleft: 'slideleft 3s ease-in-out',
-        slideright: 'slideright 3s ease-in-out',
+        slideright: 'slideright 1.5s ease-in-out',
         sliderightto: 'slideright 0.5s',
         sliderightto1: 'slideright 0.8s linear',
         sliderightto2: 'slideright 1.2s linear',
