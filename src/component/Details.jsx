@@ -1,15 +1,21 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import About from './About'
 import Experience from './Specializations'
 import Advantage from "./Advantage"
 import Contact from './Contact'
 import Projects from './Projects'
 import Info from './Info'
+import { motion, useInView } from "framer-motion"
 
 const Details = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true })
 
   return (
-    <div id='/' className='mt-44 flex flex-col'>
+    <motion.div id='/' className='mt-44 flex flex-col' 
+    whileInView={{ opacity: 1, x:0}} 
+    initial={{ opacity : 0, x:50}} 
+    transition={{duration: 2}}>
       <div className='xl:animate-slideright animate-slideup'>
       <div className='text-6xl font-playFair text-light h-[50vh] mx-3'>
         <div>Hello, Connect With <span className='text-green-700 font-Quicksand'>Daniel</span>,</div>
@@ -25,7 +31,7 @@ const Details = () => {
       <Projects />
       <Info />
       {/* <Contact /> */}
-    </div>
+    </motion.div>
   )
 }
 
