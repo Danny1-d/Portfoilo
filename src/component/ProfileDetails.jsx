@@ -25,9 +25,9 @@ const ProfileDetails = () => {
         <img src={icon} className="rounded-full"/>
       </div>
 
-      <div className="text-light text-sm font-Quicksand ">danielobijuru01@gmail.com </div>
+      <div className="text-light mb-5">danielobijuru01@gmail.com </div>
 
-      <div className="text-sm font-roboto font-bold text-ash ml-6 mt-2">© {date} Daniel. All Rights Reserved</div>
+      <div className="text-sm font-roboto font-bold text-ash ml-6 my-5">© {date} Daniel. All Rights Reserved</div>
 
       {/* <div className="mt-5 text-lg font-bold font-Tangerine text-purple-400">Contact Me </div> */}
 
