@@ -5,11 +5,9 @@ import Advantage from "./Advantage"
 import Contact from './Contact'
 import Projects from './Projects'
 import Info from './Info'
-import { motion, useInView } from "framer-motion"
+import { motion } from "framer-motion"
 
 const Details = () => {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true })
 
   return (
     <div className='overflow-hidden'>

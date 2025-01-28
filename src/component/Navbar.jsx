@@ -7,6 +7,7 @@ import menu from "../assets/images/menu.png"
 import { Link } from "react-scroll"
 import Project from "../assets/images/project.png"
 import Cancel from "../assets/images/cancel.png"
+import contact from "../assets/images/contact.png"
 
 const Navbar = () => {
 
@@ -40,6 +41,9 @@ const Navbar = () => {
           </Link>
           <Link to="/projects" spy={true} smooth={true} offset={-100} duration={1500}>
           <img src={Project} className='w-8 rounded-full'/>
+          </Link>
+          <Link to="/contact" spy={true} smooth={true} offset={-100} duration={1500}>
+          <img src={contact} className='w-8 rounded-full'/>
           </Link>
         </div>
       </div>
