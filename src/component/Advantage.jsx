@@ -7,11 +7,12 @@ import { motion } from 'framer-motion'
 const Advantage = () => {
   return (
     <div className='overflow-hidden'>
-    <motion.div id='/advantage' className='mt-28'
-    whileInView={{ opacity: 1, x:0}} 
-    initial={{ opacity : 0, x:'50vw'}} 
-    transition={{duration: 2}}>
-      <div className='ml-10 text-3xl font-bold font-Tangerine'>MY <span className='text-green-600'>Advantage</span></div>
+    <div id='/advantage' className='mt-28'>
+      <motion.div className='ml-10 text-3xl font-bold font-Tangerine'
+      whileInView={{ opacity: 1, x:0}} 
+      initial={{ opacity : 0, x:'50vw'}} 
+      transition={{duration: 2}}
+      >MY <span className='text-green-600'>Advantage</span></motion.div>
 
       <div className='grid grid-cols-2 sm:grid-cols-3 mt-20 sm:gap-4 gap-2'>
 
@@ -41,7 +42,7 @@ const Advantage = () => {
 
       </div>
 
-    </motion.div>
+    </div>
     </div>
   )
 }

@@ -15,17 +15,13 @@ const ProfileDetails = () => {
 
   return ( 
     <div className="pverflow-hidden">
-    <motion.div className="flex flex-col justify-center items-center border pb-5 h-[700px] xl:px-10 mx-5 rounded-2xl mt-5 animate-slideleft"
-    whileInView={{ opacity: 1, x:0}} 
-    initial={{ opacity : 0, x:'-50vw'}} 
-    transition={{duration: 1}}
-    >
+    <div className="flex flex-col justify-center items-center border pb-5 h-[700px] xl:px-10 mx-5 rounded-2xl mt-5">
 
         <div className="scroll fixed bg-green-600 h-[0.1rem] top-0 left-0 right-0 z-50"></div>
 
         <div className="mt-2 font-montserrat font-bold text-xl">Daniel</div>
  
-      <div className="flex items-center h-[60vh] animate-slidedown w-72">
+      <div className="flex items-center h-[60vh] w-72">
         <img src={icon} className="rounded-full"/>
       </div>
 
@@ -55,7 +51,7 @@ const ProfileDetails = () => {
       </div>
 
       <div className="text-sm font-Chewy mx-5 mt-5 text-purple-800 ">With my sleek design and intuitive features, I embody the essence of modern sophisatication</div>
-    </motion.div>
+    </div>
     </div>
   )
 }

@@ -10,12 +10,12 @@ import { motion } from 'framer-motion'
 const Info = () => {
   return (
     <div className='overflow-hidden'>
-    <motion.div id='/contact' className='mt-20'
-    whileInView={{ opacity: 1, x:0}} 
-    initial={{ opacity : 0, x:'50vw'}} 
-    transition={{duration: 1}}
-    >
-      <div className='font-bold font-roboto text-3xl mx-5 text-light'> Let's <span className='text-green-700'>Collaborate</span> to Achieve Great Results.</div>
+    <div id='/contact' className='mt-20'>
+      <motion.div className='font-bold font-roboto text-3xl mx-5 text-light'
+      whileInView={{ opacity: 1, x:0}} 
+      initial={{ opacity : 0, x:'50vw'}} 
+      transition={{duration: 1}}
+      > Let's <span className='text-green-700'>Collaborate</span> to Achieve Great Results.</motion.div>
 
       <div className='grid grid-cols-1 sm:grid-cols-2 mx-10 mt-20 gap-5'>
 
@@ -42,7 +42,7 @@ const Info = () => {
         </a>
 
       </div>
-    </motion.div>
+    </div>
     </div>
   )
 }
