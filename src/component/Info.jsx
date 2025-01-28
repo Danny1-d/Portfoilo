@@ -10,7 +10,7 @@ import { motion } from 'framer-motion'
 const Info = () => {
   return (
     <div className='overflow-hidden'>
-    <motion.div className='mt-20'
+    <motion.div id='/contact' className='mt-20'
     whileInView={{ opacity: 1, x:0}} 
     initial={{ opacity : 0, x:'50vw'}} 
     transition={{duration: 2}}

@@ -52,8 +52,10 @@ const Navbar = () => {
             <div className='flex justify-end mt-10 mr-5 cursor-pointer' onClick={closeMenu}>
               <img src={Cancel} className='w-7' />
             </div>
-            <div className='mt-20 flex justify-center text-xl'>Menu</div>
-            <div className='flex flex-col items-center mt-20 gap-16 text-sm'>
+
+            <div className='mt-8 flex justify-center text-xl'>Menu</div>
+
+            <div className='flex flex-col items-center mt-16 gap-14 text-sm'>
             <Link to="/" spy={true} smooth={true} offset={-100} duration={1500} onClick={closeMenu} >
               <button>Home</button>
             </Link>
@@ -72,6 +74,10 @@ const Navbar = () => {
 
             <Link to="/projects" spy={true} smooth={true} offset={-100} duration={1500} onClick={closeMenu} >
               <button>Projects</button>
+            </Link>
+
+            <Link to="/contact" spy={true} smooth={true} offset={-100} duration={1500} onClick={closeMenu} >
+              <button>Contact</button>
             </Link>
             </div>
           </div>
