@@ -5,7 +5,7 @@ const About = () => {
   return (
     <motion.div id='/about' className='mt-28' 
     whileInView={{ opacity: 1, x:0}} 
-    initial={{ opacity : 0, x:-100}} 
+    initial={{ opacity : 0, x:'-100vw'}} 
     transition={{duration: 2}}>
       <div className='text-4xl font-bold text-green-700 font-playFair ml-5'>
         <div className=''>Creative Front-End and Web3 Developer Turning Ideas Into Digital Reality</div>
