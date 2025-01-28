@@ -10,7 +10,7 @@ const Projects = () => {
     <div id='/projects' className='mt-28'>
       <motion.div className='font-Tangerine ml-10 text-3xl font-bold'
       whileInView={{ opacity: 1, x:0}} 
-      initial={{ opacity : 0, x:'-50vw'}} 
+      initial={{ opacity : 0, x:'-20vw'}} 
       transition={{duration: 2}}
       >My <span className='text-green-600'>Projects</span></motion.div>
 

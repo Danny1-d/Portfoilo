@@ -7,7 +7,7 @@ const Specializations = () => {
     <div id='/service' className='mt-52'>
       <motion.div className='ml-10 mb-10 text-4xl font-Tangerine font-bold'
       whileInView={{ opacity: 1, x:0}} 
-      initial={{ opacity : 0, x:'-50vw'}} 
+      initial={{ opacity : 0, x:'-20vw'}} 
       transition={{duration: 2}}
       >My <span className='text-green-800 ml-2 '> Discipline </span></motion.div>
       <div className='border p-16 mr-2 rounded-xl hover:border-green-600'>
