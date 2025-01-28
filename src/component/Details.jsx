@@ -4,6 +4,7 @@ import Experience from './Specializations'
 import Advantage from "./Advantage"
 import Contact from './Contact'
 import Projects from './Projects'
+import Info from './Info'
 
 const Details = () => {
 
@@ -22,6 +23,7 @@ const Details = () => {
       <Experience />
       <Advantage />
       <Projects />
+      <Info />
       {/* <Contact /> */}
     </div>
   )

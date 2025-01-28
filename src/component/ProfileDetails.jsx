@@ -13,19 +13,21 @@ const ProfileDetails = () => {
   const date = dayjs().year();
 
   return ( 
-    <div className="flex flex-col justify-center items-center border pb-5 h-[700px] xl:px-10 mx-5 rounded-2xl mt-5 animate-slidedown">
+    <div className="flex flex-col justify-center items-center border pb-5 h-[700px] xl:px-10 mx-5 rounded-2xl mt-5 animate-slideleft">
 
         <div className="scroll fixed bg-green-600 h-[0.1rem] top-0 left-0 right-0 z-50"></div>
 
         <div className="mt-2 font-montserrat font-bold text-xl">Daniel</div>
  
-      <div className="flex items-center h-[60vh] animate-slowfade w-72 my-10">
+      <div className="flex items-center h-[60vh] animate-slidedown w-72">
         <img src={icon} className="rounded-full"/>
       </div>
 
+      <div className="text-light text-sm font-Quicksand ">danielobijuru01@gmail.com </div>
+
       <div className="text-sm font-roboto font-bold text-ash ml-6 mt-2">© {date} Daniel. All Rights Reserved</div>
 
-      <div className="mt-5 text-lg font-bold font-Tangerine text-purple-400">Contact Me </div>
+      {/* <div className="mt-5 text-lg font-bold font-Tangerine text-purple-400">Contact Me </div> */}
 
       <div className="w-56 flex justify-center gap-4 mt-3 rounded-full">
         <a href="https://www.linkedin.com/in/daniel-obijuru-aa05062b1/">
@@ -46,7 +48,7 @@ const ProfileDetails = () => {
         </a>
       </div>
 
-      <div className="text-xl font-Tangerine italic mx-5 mt-5 text-purple-600 font-bold">With my sleek design and intuitive features, I embody the essence of modern sophisatication</div>
+      <div className="text-xl font-Chewy italic mx-5 mt-5 text-purple-600 font-bold">With my sleek design and intuitive features, I embody the essence of modern sophisatication</div>
     </div>
   )
 }
