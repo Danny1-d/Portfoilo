@@ -21,11 +21,11 @@ const ProfileDetails = () => {
 
         <div className="mt-2 font-montserrat font-bold text-xl">Daniel</div>
  
-      <div className="flex items-center h-[60vh] w-56">
+      <div className="flex items-center h-[55vh] w-56">
         <img src={icon} className="rounded-full"/>
       </div>
 
-      <div className="text-light mb-5">danielobijuru01@gmail.com </div>
+      <div className="text-light text-xl mb-5">danielobijuru01@gmail.com </div>
 
       <div className="text-sm font-roboto font-bold text-ash ml-6 my-5">© {date} Daniel. All Rights Reserved</div>
 
