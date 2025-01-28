@@ -5,10 +5,16 @@ import linked from "../assets/images/linked.png"
 import x from "../assets/images/x.png"
 import whatapp from "../assets/images/whatapp.jpeg"
 import location from "../assets/images/location.png"
+import { motion } from 'framer-motion'
 
 const Info = () => {
   return (
-    <div className='mt-20'>
+    <div className='overflow-hidden'>
+    <motion.div className='mt-20'
+    whileInView={{ opacity: 1, x:0}} 
+    initial={{ opacity : 0, x:'50vw'}} 
+    transition={{duration: 2}}
+    >
       <div className='font-bold font-roboto text-3xl mx-5 text-light'> Let's <span className='text-green-700'>Collaborate</span> to Achieve Great Results </div>
 
       <div className='grid grid-cols-1 xl:grid-cols-2 mx-10 mt-20 gap-5'>
@@ -36,6 +42,7 @@ const Info = () => {
         </a>
 
       </div>
+    </motion.div>
     </div>
   )
 }

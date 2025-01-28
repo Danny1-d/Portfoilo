@@ -2,10 +2,16 @@ import React from 'react'
 import amazon from "../assets/images/amazon.png"
 import Note from "../assets/images/Note.png"
 import Token from "../assets/images/token.png"
+import { motion } from "framer-motion"
 
 const Projects = () => {
   return (
-    <div id='/projects' className='mt-28'>
+    <div className='overflow-hidden'>
+    <motion.div id='/projects' className='mt-28'
+    whileInView={{ opacity: 1, x:0}} 
+    initial={{ opacity : 0, x:'-50vw'}} 
+    transition={{duration: 2}}
+    >
       <div className='font-Tangerine ml-10 text-3xl font-bold'>My <span className='text-green-600'>Projects</span></div>
 
       <div className='mt-28 opacity-80 flex flex-col gap-16 mx-10'>
@@ -44,6 +50,7 @@ const Projects = () => {
         </div>
       </div>
 
+    </motion.div>
     </div>
   )
 }
