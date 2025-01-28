@@ -12,6 +12,7 @@ const Details = () => {
   const isInView = useInView(ref, { once: true })
 
   return (
+    <div className='overflow-hidden'>
     <motion.div id='/' className='mt-44 flex flex-col' 
     whileInView={{ opacity: 1, x:0}} 
     initial={{ opacity : 0, x:'50vw'}} 
@@ -32,6 +33,7 @@ const Details = () => {
       <Info />
       {/* <Contact /> */}
     </motion.div>
+    </div>
   )
 }
 

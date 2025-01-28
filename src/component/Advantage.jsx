@@ -6,6 +6,7 @@ import { motion } from 'framer-motion'
 
 const Advantage = () => {
   return (
+    <div className='overflow-hidden'>
     <motion.div id='/advantage' className='mt-28'
     whileInView={{ opacity: 1, x:0}} 
     initial={{ opacity : 0, x:'50vw'}} 
@@ -41,6 +42,7 @@ const Advantage = () => {
       </div>
 
     </motion.div>
+    </div>
   )
 }
 

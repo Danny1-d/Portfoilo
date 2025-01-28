@@ -3,6 +3,7 @@ import { motion, useInView } from "framer-motion"
 
 const About = () => {
   return (
+    <div className='overflow-hidden'>
     <motion.div id='/about' className='mt-28' 
     whileInView={{ opacity: 1, x:0}} 
     initial={{ opacity : 0, x:'-100vw'}} 
@@ -16,6 +17,7 @@ const About = () => {
         </div>
       </div>
     </motion.div>
+    </div>
   )
 }
 
