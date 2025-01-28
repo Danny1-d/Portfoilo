@@ -17,7 +17,7 @@ const Info = () => {
     >
       <div className='font-bold font-roboto text-3xl mx-5 text-light'> Let's <span className='text-green-700'>Collaborate</span> to Achieve Great Results </div>
 
-      <div className='grid grid-cols-1 xl:grid-cols-2 mx-10 mt-20 gap-5'>
+      <div className='grid grid-cols-2 mx-10 mt-20 gap-5'>
 
         <a href="https://www.linkedin.com/in/daniel-obijuru-aa05062b1/" className='flex justify-between items-center border rounded-xl px-2 py-2'>
           <img className='w-10 rounded-xl' src={linked} />
