@@ -2,10 +2,14 @@ import React from 'react'
 import motoko from "../assets/images/motoko-icon.jpeg"
 import js from "../assets/images/js-icon.png"
 import react from "../assets/images/react-icon.webp"
+import { motion } from 'framer-motion'
 
 const Advantage = () => {
   return (
-    <div id='/advantage' className='mt-28'>
+    <motion.div id='/advantage' className='mt-28'
+    whileInView={{ opacity: 1, x:0}} 
+    initial={{ opacity : 0, y:100}} 
+    transition={{duration: 2}}>
       <div className='ml-10 text-3xl font-bold font-Tangerine'>MY <span className='text-green-600'>Advantage</span></div>
 
       <div className='grid grid-cols-2 sm:grid-cols-3 mt-20 sm:gap-4 gap-2'>
@@ -36,7 +40,7 @@ const Advantage = () => {
 
       </div>
 
-    </div>
+    </motion.div>
   )
 }
 
