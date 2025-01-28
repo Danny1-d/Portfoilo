@@ -21,7 +21,7 @@ const ProfileDetails = () => {
 
         <div className="mt-2 font-montserrat font-bold text-xl">Daniel</div>
  
-      <div className="flex items-center h-[60vh] w-54">
+      <div className="flex items-center h-[60vh] w-56">
         <img src={icon} className="rounded-full"/>
       </div>
 
