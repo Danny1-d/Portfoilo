@@ -6,8 +6,8 @@ const Specializations = () => {
     <div className='overflow-hidden'>
     <motion.div id='/service' className='mt-20'
    whileInView={{ opacity: 1, x:0}} 
-    initial={{ opacity : 0, x:'50vw'}} 
-    transition={{duration: 2}}>
+    initial={{ opacity : 0, x:'-50vw'}} 
+    transition={{duration: 1}}>
       <div className='ml-10 mb-10 text-4xl font-Tangerine font-bold'>My <span className='text-green-800 ml-2 '> Discipline </span></div>
       <div className='border p-16 mr-2 rounded-xl hover:border-green-600'>
         <div className='mb-5 font-bold font-playFair text-xl'> <span className='text-green-500'>Front-End</span> Developement</div>

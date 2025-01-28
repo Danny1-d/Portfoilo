@@ -13,7 +13,7 @@ const Info = () => {
     <motion.div id='/contact' className='mt-20'
     whileInView={{ opacity: 1, x:0}} 
     initial={{ opacity : 0, x:'50vw'}} 
-    transition={{duration: 2}}
+    transition={{duration: 1}}
     >
       <div className='font-bold font-roboto text-3xl mx-5 text-light'> Let's <span className='text-green-700'>Collaborate</span> to Achieve Great Results </div>
 

@@ -18,7 +18,7 @@ const ProfileDetails = () => {
     <motion.div className="flex flex-col justify-center items-center border pb-5 h-[700px] xl:px-10 mx-5 rounded-2xl mt-5 animate-slideleft"
     whileInView={{ opacity: 1, x:0}} 
     initial={{ opacity : 0, x:'-50vw'}} 
-    transition={{duration: 2}}
+    transition={{duration: 1}}
     >
 
         <div className="scroll fixed bg-green-600 h-[0.1rem] top-0 left-0 right-0 z-50"></div>

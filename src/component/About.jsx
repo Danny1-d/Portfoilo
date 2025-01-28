@@ -4,10 +4,10 @@ import { motion } from "framer-motion"
 const About = () => {
   return (
     <div className='overflow-hidden'>
-    <motion.div id='/about' className='mt-28' 
+    <motion.div id='/about' className='mt-36' 
     whileInView={{ opacity: 1, x:0}} 
     initial={{ opacity : 0, x:'50vw'}} 
-    transition={{duration: 2}}>
+    transition={{duration: 1}}>
       <div className='text-4xl font-bold text-green-700 font-playFair ml-5'>
         <div>Creative Front-End and Web3 Developer Turning Ideas Into Digital Reality</div>
       </div>

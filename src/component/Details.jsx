@@ -14,7 +14,7 @@ const Details = () => {
     <motion.div id='/' className='mt-44 flex flex-col' 
     whileInView={{ opacity: 1, x:0}} 
     initial={{ opacity : 0, x:'50vw'}} 
-    transition={{duration: 2}}>
+    transition={{duration: 1}}>
       <div className='xl:animate-slideright animate-slideup'>
       <div className='text-6xl font-playFair text-light h-[50vh] mx-3'>
         <div>Hello, Connect With <span className='text-green-700 font-Quicksand'>Daniel</span>,</div>
