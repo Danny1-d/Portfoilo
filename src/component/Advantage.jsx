@@ -8,7 +8,7 @@ const Advantage = () => {
   return (
     <motion.div id='/advantage' className='mt-28'
     whileInView={{ opacity: 1, x:0}} 
-    initial={{ opacity : 0, y:100}} 
+    initial={{ opacity : 0, x:50}} 
     transition={{duration: 2}}>
       <div className='ml-10 text-3xl font-bold font-Tangerine'>MY <span className='text-green-600'>Advantage</span></div>
 
