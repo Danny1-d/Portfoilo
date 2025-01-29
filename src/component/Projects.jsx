@@ -2,6 +2,7 @@ import React from 'react'
 import amazon from "../assets/images/amazon.png"
 import Note from "../assets/images/Note.png"
 import Token from "../assets/images/token.png"
+import NFT from "../assets/images/NFT marketplace.png"
 import { motion } from "framer-motion"
 
 const Projects = () => {
@@ -24,7 +25,7 @@ const Projects = () => {
                 <div className='bg-light px-4 py-1 rounded-full text-purple-700 font-Tangerine whitespace-nowrap'>Tailwind CSS</div>
               </div>
             </div>
-          <div className='text-light mt-5 flex justify-center font-Chewy'>Token Built on the ICP Blockchain</div>
+          <div className='text-light mt-5 flex justify-center font-Chewy'>Token Built on the ICP Blockchain.</div>
         </div>
 
         <div>
@@ -35,7 +36,19 @@ const Projects = () => {
               <div className='bg-light px-4 py-1 rounded-full text-purple-700 font-Tangerine'>Tailwind CSS</div>
             </div>
           </div>
-          <div className='text-light mt-5 flex justify-center font-Chewy'>Fully Functional E-commerce Website</div>
+          <div className='text-light mt-5 flex justify-center font-Chewy'>Fully Functional E-commerce Website.</div>
+        </div>
+
+        <div>
+          <div  className='relative'>
+            <img src={NFT} alt='This is an e-commerce website' />
+            <div className='absolute inset-0 flex gap-5 items-end left-3 bottom-3'>
+              <div className='bg-light px-4 py-1 rounded-full text-purple-700 font-Tangerine'>React</div>
+              <div className='bg-light px-4 py-1 rounded-full text-purple-700 font-Tangerine'>Motoko</div>
+              <div className='bg-light px-4 py-1 rounded-full text-purple-700 font-Tangerine'>Tailwind CSS</div>
+            </div>
+          </div>
+          <div className='text-light mt-5 flex justify-center font-Chewy'>An NFT marketplace that allows you to mint, buy and sell NFTs.</div>
         </div>
 
         <div>
@@ -46,7 +59,7 @@ const Projects = () => {
               <div className='bg-light px-4 py-1 rounded-full text-purple-700 font-Tangerine'>Tailwind CSS</div>
             </div>
           </div>
-          <div className='text-light mt-5 flex justify-center font-Chewy'>Note to Keep Record</div>
+          <div className='text-light mt-5 flex justify-center font-Chewy'>Note to Keep Record.</div>
         </div>
       </div>
 

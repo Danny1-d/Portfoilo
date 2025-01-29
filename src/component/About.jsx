@@ -11,7 +11,7 @@ const About = () => {
       initial={{ opacity : 0, x:'50vw'}} 
       transition={{duration: 1}}
       >
-        <div>Creative Front-End and Web3 Developer Turning Ideas Into Digital Reality</div>
+        <div>Creative Front-End and Web3 Developer Turning Ideas Into Digital Reality.</div>
       </motion.div>
 
       <div className='mt-16 text-lg text-ash font-Quicksand ml-5'>
