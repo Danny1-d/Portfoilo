@@ -18,7 +18,7 @@ const Advantage = () => {
 
         <div className='flex flex-col items-center'> 
           <div className='border px-16 py-10 rounded-full flex flex-col items-center hover:border-green-500'>
-            <img src={js} alt='js icon' className='rounded-xl '/>
+            <img src={js} alt='js icon' className='w-16 rounded-xl '/>
             <div className='mt-10 font-bold text-xl text-green-700'>85%</div>
           </div>
           <div className='mt-7 text-light text-xl font-bold font-Tangerine'>JavaScript</div>

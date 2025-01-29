@@ -31,16 +31,16 @@ const ProfileDetails = () => {
 
       {/* <div className="mt-5 text-lg font-bold font-Tangerine text-purple-400">Contact Me </div> */}
 
-      <div className="w-56 flex justify-center gap-4 mt-3 rounded-full">
+      <div className="w-44 flex justify-center gap-4 mt-3 rounded-full">
         <a href="https://www.linkedin.com/in/daniel-obijuru-aa05062b1/">
           <img src={linkedIn} className="rounded-full hover:border-green-500 border-2 cursor-pointer"/>
         </a>
         <a href='https://github.com/Daniel-agozie'>
           <img src={github} className="rounded-full hover:border-green-500 border-2 cursor-pointer"/>
         </a>
-        <a href="https://www.facebook.com/profile.php?id=61550331388285">
+        {/* <a href="https://www.facebook.com/profile.php?id=61550331388285">
           <img src={facebook} className="rounded-full hover:border-green-500 border-2 cursor-pointer"/>
-        </a>
+        </a> */}
         <a href='https://x.com/DannyKfty?t=87KlVhxXtLT6A01xazamrQ&s=09'>
           <img src={x}  className="rounded-full hover:border-green-500 border-2 cursor-pointer"/>
         </a> 
