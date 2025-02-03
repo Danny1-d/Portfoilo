@@ -20,9 +20,9 @@ const Projects = () => {
           <div className='relative'>
             <img src={Token} alt='This is a token built on the ICP blockchain that function fully' />
               <div className='absolute inset-0 flex gap-5 items-end left-3 bottom-3'>
-                <div className='bg-light px-4 py-1 rounded-full text-black font-Tangerine'>React</div>
-                <div className='bg-light px-4 py-1 rounded-full text-black font-Tangerine'>Motoko</div>
-                <div className='bg-light px-4 py-1 rounded-full text-black font-Tangerine whitespace-nowrap'>Tailwind CSS</div>
+                <div className='bg-light px-2 py-1 text-xl rounded-full text-black font-Tangerine'>React</div>
+                <div className='bg-light px-2 py-1 text-xl rounded-full text-black font-Tangerine'>Motoko</div>
+                <div className='bg-light px-2 py-1 text-xl rounded-full text-black font-Tangerine whitespace-nowrap'>Tailwind CSS</div>
               </div>
             </div>
           <div className='text-light mt-5 flex justify-center font-Chewy'>Token Built on the ICP Blockchain.</div>
@@ -32,8 +32,8 @@ const Projects = () => {
           <div  className='relative'>
             <img src={amazon} alt='This is an e-commerce website' />
             <div className='absolute inset-0 flex gap-5 items-end left-3 bottom-3'>
-              <div className='bg-light px-4 py-1 rounded-full text-black font-Tangerine'>React</div>
-              <div className='bg-light px-4 py-1 rounded-full text-black font-Tangerine'>Tailwind CSS</div>
+              <div className='bg-light px-2 py-1 text-xl rounded-full text-black font-Tangerine'>React</div>
+              <div className='bg-light px-2 py-1 text-xl rounded-full text-black font-Tangerine'>Tailwind CSS</div>
             </div>
           </div>
           <div className='text-light mt-5 flex justify-center font-Chewy'>Fully Functional E-commerce Website.</div>
@@ -43,9 +43,9 @@ const Projects = () => {
           <div  className='relative'>
             <img src={NFT} alt='This is an e-commerce website' />
             <div className='absolute inset-0 flex gap-5 items-end left-3 bottom-3'>
-              <div className='bg-light px-4 py-1 rounded-full text-black font-Tangerine'>React</div>
-              <div className='bg-light px-4 py-1 rounded-full text-black font-Tangerine'>Motoko</div>
-              <div className='bg-light px-4 py-1 rounded-full text-black font-Tangerine'>Tailwind CSS</div>
+              <div className='bg-light px-2 py-1 text-xl rounded-full text-black font-Tangerine'>React</div>
+              <div className='bg-light px-2 py-1 text-xl rounded-full text-black font-Tangerine'>Motoko</div>
+              <div className='bg-light px-2 py-1 text-xl rounded-full text-black font-Tangerine'>Tailwind CSS</div>
             </div>
           </div>
           <div className='text-light mt-5 flex justify-center font-Chewy'>An NFT marketplace that allows you to mint, buy and sell NFTs.</div>
@@ -55,8 +55,8 @@ const Projects = () => {
           <div  className='relative'>
             <img src={Note} alt='This is a note pad that keeps record of your note' />
             <div className='absolute inset-0 flex gap-5 items-end left-3 bottom-3'>
-              <div className='bg-light px-4 py-1 rounded-full text-black font-Tangerine'>React</div>
-              <div className='bg-light px-4 py-1 rounded-full text-black font-Tangerine'>Tailwind CSS</div>
+              <div className='bg-light px-2 py-1 text-xl rounded-full text-black font-Tangerine'>React</div>
+              <div className='bg-light px-2 py-1 text-xl rounded-full text-black font-Tangerine'>Tailwind CSS</div>
             </div>
           </div>
           <div className='text-light mt-5 flex justify-center font-Chewy'>Note to Keep Record.</div>
