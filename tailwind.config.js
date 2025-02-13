@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      // background : {
+      //   bg: "url("./src/assets/images/always-grey.png")",
+      // },
       screen: {
         'sm': '300px',
         'md': '600px',
