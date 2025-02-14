@@ -11,7 +11,7 @@ const Details = () => {
 
   return (
     <div id='/'  className='overflow-hidden mt-44 flex flex-col'>
-    <motion.div
+     <motion.div
     whileInView={{ opacity: 1, x:0}} 
     initial={{ opacity : 0, x:'50vw'}} 
     transition={{duration: 1}}>
