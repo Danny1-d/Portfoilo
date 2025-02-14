@@ -15,13 +15,13 @@ const Details = () => {
     whileInView={{ opacity: 1, x:0}} 
     initial={{ opacity : 0, x:'50vw'}} 
     transition={{duration: 1}}>
-      <div className='xl:animate-slideright animate-slideup'>
+      <div className='xl:animate-slideright animate-slideup font-Quicksand'>
       <div className='text-6xl font-playFair text-light h-[50vh] mx-3'>
-        <div>Hello, Connect With <span className='text-green-700 font-Quicksand'>Daniel</span>,</div>
-        <div className='text-xl mt-5 font-Chewy'>A Frontend Developer and A Web3 Developer (Motoko, ICP Blockchain).</div>
+        <div>Hello, Connect With <span className='text-green-700 '>Daniel</span>,</div>
+        <div className='text-xl mt-5'>A Frontend Developer and A Web3 Developer (Motoko, ICP Blockchain).</div>
       </div>
 
-      <div className='font-Quicksand text-lg ml-3'>I'm your ultimate companion to make a lasting impression in digital realm.</div>
+      <div className='text-lg ml-3'>I'm your ultimate companion to make a lasting impression in digital realm.</div>
       </div>
       {/* <Contact /> */}
     </motion.div>
