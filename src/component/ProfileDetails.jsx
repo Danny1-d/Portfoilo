@@ -15,7 +15,7 @@ const ProfileDetails = () => {
 
   return ( 
     <div className="overflow-hidden min-h-fit">
-    <div className="flex flex-col justify-center items-center border pb-5  xl:px-10 mx-5 rounded-2xl mt-5 xl:fixed xl:w-[350px] xl:bottom-1 xl:top-1">
+    <div className="flex flex-col justify-center items-center border pb-5  xl:px-10 mx-5 rounded-2xl mt-5 xl:fixed xl:w-[380px] xl:bottom-1 xl:top-1">
 
         <div className="scroll fixed bg-green-600 h-[0.1rem] top-0 left-0 right-0 z-50"></div>
 

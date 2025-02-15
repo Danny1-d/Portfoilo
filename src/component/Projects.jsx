@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <div className='overflow-hidden'>
     <div id='/projects' className='mt-28'>
-      <motion.div className='font-Tangerine ml-10 text-3xl font-bold'
+      <motion.div className='font-Quicksand ml-10 text-3xl font-bold'
       whileInView={{ opacity: 1, x:0}} 
       initial={{ opacity : 0, x:'-20vw'}} 
       transition={{duration: 2}}
