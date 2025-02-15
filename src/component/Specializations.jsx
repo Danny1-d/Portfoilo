@@ -5,7 +5,7 @@ const Specializations = () => {
   return (
     <div className='overflow-hidden'>
     <div id='/service' className='mt-52'>
-      <motion.div className='ml-10 mb-10 text-4xl font-Tangerine font-bold'
+      <motion.div className='ml-10 mb-10 text-3xl font-Tangerine font-bold'
       whileInView={{ opacity: 1, x:0}} 
       initial={{ opacity : 0, x:'-20vw'}} 
       transition={{duration: 2}}
