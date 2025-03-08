@@ -8,7 +8,7 @@ const Advantage = () => {
   return (
     <div className='overflow-hidden'>
     <div id='/advantage' className='mt-28'>
-      <motion.div className='ml-10 text-3xl font-bold font-Tangerine'
+      <motion.div className='ml-10 text-3xl font-bold'
       whileInView={{ opacity: 1, x:0}} 
       initial={{ opacity : 0, x:'50vw'}} 
       transition={{duration: 2}}
@@ -21,7 +21,7 @@ const Advantage = () => {
             <img src={js} alt='js icon' className='w-16 rounded-xl '/>
             <div className='mt-10 font-bold text-xl text-green-700'>85%</div>
           </div>
-          <div className='mt-7 text-light text-xl font-bold font-Tangerine'>JavaScript</div>
+          <div className='mt-7 text-light text-xl font-bold'>JavaScript</div>
         </div>
 
         <div className='flex flex-col items-center'>
@@ -29,7 +29,7 @@ const Advantage = () => {
             <img src={react} alt='js icon' className='rounded-xl'/>
             <div className='mt-10 font-bold text-xl text-green-700'>75%</div>
           </div>
-          <div className='mt-7 text-light text-xl font-bold font-Tangerine'>React</div>
+          <div className='mt-7 text-light text-xl font-bold'>React</div>
         </div>
 
         <div className='flex flex-col items-center'>
@@ -37,7 +37,7 @@ const Advantage = () => {
             <img src={motoko} alt='js icon' className='rounded-xl'/>
             <div className='mt-10 font-bold text-xl text-green-700'>70%</div>
           </div>
-          <div className='mt-7 text-light text-xl font-bold font-Tangerine'>Motoko</div>
+          <div className='mt-7 text-light text-xl font-bold'>Motoko</div>
         </div>
 
       </div>

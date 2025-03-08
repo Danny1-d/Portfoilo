@@ -35,7 +35,7 @@ const ProfileDetails = () => {
         <a href="https://www.linkedin.com/in/daniel-obijuru-aa05062b1/">
           <img src={linkedIn} className="rounded-full hover:border-green-500 border-2 cursor-pointer"/>
         </a>
-        <a href='https://github.com/Daniel-agozie'>
+        <a href='https://github.com/Danny1-d'>
           <img src={github} className="rounded-full hover:border-green-500 border-2 cursor-pointer"/>
         </a>
         {/* <a href="https://www.facebook.com/profile.php?id=61550331388285">

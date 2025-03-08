@@ -28,7 +28,7 @@ const App = () => {
   //   }
   //   </>
 
-  <section className="grid grid-cols-1 xl:grid-cols-[1fr_2fr_0.2fr] gap-16 mb-24 bg-bg">
+  <section className="grid grid-cols-1 xl:grid-cols-[1fr_2fr_0.2fr] gap-16 mb-24 bg-bg font-playFair">
     <ProfileDetails />
     <Details />
     <Navbar />
