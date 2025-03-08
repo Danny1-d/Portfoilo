@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <div className='mt-24'>
-      <div className='font-bold font-roboto text-3xl mx-5 text-light'> Let's <span className='text-green-700'>Collaborate</span> to Achieve Great Results </div>
+      <div className='font-bold font-roboto text-2xl mx-5 text-light'> Let's <span className='text-green-700'>Collaborate</span> to Achieve Great Results </div>
 
       <form className="mt-28 grid grid-cols-2 mx-8 gap-20 text-light">
         <div className='flex flex-col'>
