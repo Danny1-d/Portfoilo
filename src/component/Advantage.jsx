@@ -21,7 +21,7 @@ const Advantage = () => {
             <img src={js} alt='js icon' className='w-16 rounded-xl '/>
             <div className='mt-10 font-bold text-xl text-green-700'>85%</div>
           </div>
-          <div className='mt-7 text-light text-sm font-bold'>JavaScript</div>
+          <div className='mt-7 text-light text-sm'>JavaScript</div>
         </div>
 
         <div className='flex flex-col items-center'>
@@ -29,7 +29,7 @@ const Advantage = () => {
             <img src={react} alt='js icon' className='rounded-xl'/>
             <div className='mt-10 font-bold text-xl text-green-700'>75%</div>
           </div>
-          <div className='mt-7 text-light text-sm font-bold'>React</div>
+          <div className='mt-7 text-light text-sm'>React</div>
         </div>
 
         <div className='flex flex-col items-center'>
@@ -37,7 +37,7 @@ const Advantage = () => {
             <img src={motoko} alt='js icon' className='rounded-xl'/>
             <div className='mt-10 font-bold text-xl text-green-700'>70%</div>
           </div>
-          <div className='mt-7 text-light text-sm font-bold'>Motoko</div>
+          <div className='mt-7 text-light text-sm'>Motoko</div>
         </div>
 
       </div>
