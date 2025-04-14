@@ -30,7 +30,7 @@ const Info = () => {
           <img className='w-5 h-5 rounded-xl' src={location} />
         </a>
 
-        <a href="https://wa.me/+23409158761196" className='flex justify-between items-center border rounded-xl px-2 py-2 hover:bg-light'>
+        <a href="https://wa.me/+2347077377379" className='flex justify-between items-center border rounded-xl px-2 py-2 hover:bg-light'>
           <img className='w-10 rounded-xl' src={whatapp} />
           <img className='w-5 h-5 rounded-xl' src={location} />
         </a>

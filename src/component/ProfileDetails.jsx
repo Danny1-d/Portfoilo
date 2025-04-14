@@ -45,7 +45,7 @@ const ProfileDetails = () => {
           <img src={x}  className="rounded-full hover:border-green-500 border-2 cursor-pointer"/>
         </a> 
 
-        <a href="https://wa.me/+23409158761196">
+        <a href="https://wa.me/+2347077377379">
           <img src={whatapp} className="rounded-full hover:border-green-500 border-2 cursor-pointer"/>
         </a>
       </div>
