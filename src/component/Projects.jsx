@@ -44,10 +44,10 @@ const Projects = () => {
         {projects.map((project,idx) => (
           <div>
             <div className='relative' key={idx}>
-            <img src={project.img} alt={project.alt}  className='w-20% rounded-xl'/>
+            <img src={project.img} alt={project.alt}  className='w-20% rounded-2xl'/>
               <div className='absolute inset-0 flex gap-5 items-end left-3 bottom-3'>
                 {project.tech.map((item, idx) => (
-                  <div className='bg-light px-2 py-1 text-sm rounded-full text-black Montserrat'>{item}</div>
+                  <div className='bg-light px-2 py-1 text-sm rounded-full text-black Montserrat' key={idx}>{item}</div>
                 ))}
               </div>
             </div>
@@ -61,4 +61,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default Projects;

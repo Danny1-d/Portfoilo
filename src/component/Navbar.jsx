@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import { Link } from "react-scroll"
-import { HomeIcon, Pencil1Icon, EnvelopeClosedIcon, BackpackIcon, ArchiveIcon, RowsIcon, MixIcon} from '@radix-ui/react-icons';
+import { HomeIcon, Pencil1Icon, EnvelopeClosedIcon, BackpackIcon, ArchiveIcon, RowsIcon, MixIcon } from '@radix-ui/react-icons';
 import CallIcon from '@mui/icons-material/Call';
 
 const Navbar = () => {
@@ -64,7 +64,7 @@ const Navbar = () => {
 
 
       {/* for mobile */}
-      <div className='xl:hidden block  mr-4'>
+      <div className='xl:hidden block mr-4'>
         <RowsIcon  className={`w-5 h-5 cursor-pointer ${isOpen && 'hidden'}`} onClick={Nav}/>
 
         {isOpen && (
@@ -88,4 +88,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;

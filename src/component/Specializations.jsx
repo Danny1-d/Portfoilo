@@ -25,4 +25,4 @@ const Specializations = () => {
   )
 }
 
-export default Specializations
+export default Specializations;
