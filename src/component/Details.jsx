@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import About from './About'
 import Experience from './Specializations'
 import Advantage from "./Advantage"
-import Contact from './Contact'
+// import Contact from './Contact'
 import Projects from './Projects'
 import Info from './Info'
 import { motion } from "framer-motion"
