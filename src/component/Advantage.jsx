@@ -49,7 +49,7 @@ const Advantage = () => {
         {skills.map((skill, idx) => (
           <div className='flex flex-col items-center' key={idx}> 
             <div className='border px-16 py-10 rounded-full flex flex-col items-center hover:border-green-500'>
-              <img src={skill.img} alt='js icon' className='w-16 rounded-xl '/>
+              <img src={skill.img} alt='js icon' className='md:w-16 w-8 rounded-xl '/>
               <div className='mt-10 font-bold text-xl text-green-700'>{skill.mark}</div>
             </div>
             <div className='mt-7 text-light'>{skill.name}</div>
